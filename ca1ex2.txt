@@ -1,0 +1,20 @@
+git branch -m master main
+git init
+git branch -m master main
+git add .
+git commmit -m "First commit"
+git commit -m "First commit"
+git switch -c feature-login
+git add .
+git status
+git commit -m "feature login update app.py"
+git switch main
+git add .
+git commit -m "main branch change app.py"
+git merge feature-login
+git merge feature-login
+git remote add origin https://github.com/3mob1/ca1ex2-repo.git
+git push -u origin main
+git pull
+Get-History | ? CommandLine -match "git" | % ComandLine ca1ex2.txt
+Get-History | ? CommandLine -match "git" | % CommandLine ca1ex2.txt
